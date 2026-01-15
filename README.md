@@ -37,6 +37,41 @@ PostgreSQL
 
 Postman (for API testing)
 
+📁 Project Structure
+
+    document_workflow/
+    │
+    ├── accounts/
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── views.py
+    │   ├── urls.py
+    │
+    ├── documents/
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── views.py
+    │   ├── urls.py
+    │
+    ├── workflows/
+    │   ├── models.py
+    │   ├── serializers.py
+    │   ├── views.py
+    │   ├── engine.py
+    │   ├── urls.py
+    │
+    ├── audit/
+    │   ├── models.py
+    │   ├── views.py
+    │   ├── urls.py
+    │
+    ├── document_workflow/
+    │   ├── settings.py
+    │   ├── urls.py
+    │
+    └── manage.py
+
+
 🔐 Authentication (JWT)
 1️⃣ Login
 
