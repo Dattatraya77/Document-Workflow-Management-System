@@ -262,11 +262,15 @@ Response
 ]
 
 🔒 Authorization Rules
-Role	Permissions
-ADMIN	Full Access
-CREATOR	Create Documents
-REVIEWER	Review Documents
-APPROVER	Final Approval
+
+| Role     | Permissions      |
+| -------- | ---------------- |
+| ADMIN    | Full Access      |
+| CREATOR  | Create Documents |
+| REVIEWER | Review Documents |
+| APPROVER | Final Approval   |
+
+
 ▶️ Running the Project
 git clone <repo_url>
 cd document_workflow
